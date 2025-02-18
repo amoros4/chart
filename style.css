@@ -1,0 +1,117 @@
+body{
+    padding: 0;
+    margin: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color: rgba(44, 43, 43, 0.562);
+    font-size: 15px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.menu button{
+     width: 106px;
+     height: 70px;
+     border-radius: 25px;
+     padding: 10px;
+
+
+
+}
+.btn1{
+    background-color: #1f1f1f;
+    color: white;
+    
+}
+.btn2{
+    background-color: white;
+    color: black;
+}
+/*  main */
+
+.main h1{
+    
+    text-align: center;
+}
+textarea {
+    resize: none;
+    border: 0;
+}
+textarea:focus{
+    outline: none;
+}
+.champs {
+    
+    display: flex;
+    justify-content: center;
+}
+.cadre {
+    width: 700px;
+    height: 115px;
+    border-radius: 25px;
+    background-color: #ffffffe8;
+    border:  1px solid  rgba(128, 128, 128, 0.502);
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.arrow{
+    margin-left: 400px;
+
+}
+button.arrow{
+    background-color: rgba(0, 0, 0, 0.123);
+}
+.btn button{
+     border-radius: 25px;
+     padding: 5px 10px;
+     background-color: #ffffffe8;
+     border:  1px solid  rgba(128, 128, 128, 0.502);
+}
+.btm{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 12px;
+    
+}
+.btm button{
+    border-radius: 20px;
+    padding: 12px;
+    border:  solid 1px #5d5d5d;
+    background-color: #ffffffe8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.texte i{
+    color: rgba(255, 0, 0, 0.562);
+}
+.plan i{
+    color: rgba(205, 202, 50, 0.849);
+}
+.conner i{
+    color: rgba(0, 81, 255, 0.815);
+}
+.conseil i{
+    color: rgba(0, 81, 255, 0.815);
+}
+/* footer */
+p{
+    color: #5d5d5d;
+    text-align: center;
+    width: 60%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    height: 8vh;
+    color: #000;
+    margin-top: 100px;
+}
